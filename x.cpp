@@ -40,7 +40,7 @@ int main()
     {
     	iss>>size;
     	iss>>name2;
-    	if((name2!="x" && name2!="GetWallpapers" && atoi(size.c_str())<153600) || name1==name2)
+    	if((name2!="x" && name2!="GetWallpapers" && atoi(size.c_str())<153600) || name1==name2)     //GetWallpapers is name of .exe file
     	{
     		char del[100];
     		string d="del /f /q "+name2;
